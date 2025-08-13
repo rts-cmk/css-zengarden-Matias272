@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f2f2f2;
+    color: #777777;
+    font: 11px / 1.4em Arial, Tahoma, Verdana, sans-serif;
+}
+.page-wrapper {
+    padding: 0 2px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    background: #fff url(https://csszengarden.com/144/container.gif) repeat-y;
+}
+p {
+    padding-top: 5px;
+
+}
+a {
+    text-decoration: none;
+    color: #9ead6c;
+    font-weight: 600;
+}
+/**/
+h1 {
+    width: 500px;
+    height: 80px;
+    background: #fff url(https://csszengarden.com/144/h1.gif) no-repeat 0 100%;
+    color: #ffffff00;
+    user-select: none;
+}
+
+h2 {
+    width: 500px;
+    height: 206px;
+    background: #fff url(https://csszengarden.com/144/h2.jpg) no-repeat 0 100%;
+    color: #ffffff00;
+    user-select: none;
+}
+.summary, .preamble, .supporting div {
+    position: relative;
+    padding: 5px 20px;
+    width: 370px;
+}
+.summary {
+    padding: 15px 20px;
+    background: url(https://csszengarden.com/144/line.gif) no-repeat 50% 100%;
+}
+.preamble {
+    padding: 15px 20px 5px
+}
+.supporting .requirements {
+    padding-bottom: 12px;
+}
+.preamble h3 {
+    background-image: url(https://csszengarden.com/144/h3_01.gif);
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 30px;
+    color: #ffffff00;
+    user-select: none;  
+}
+.main h3 {
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 30px;
+    color: #ffffff00;
+    user-select: none;
+}
+
+.explanation h3 {
+    background-image: url(https://csszengarden.com/144/h3_02.gif);
+
+}
+.participation h3 {
+    background-image: url(https://csszengarden.com/144/h3_03.gif);
+
+}
+.benefits h3 {
+    background-image: url(https://csszengarden.com/144/h3_04.gif);
+
+}
+.requirements h3 {
+    background-image: url(https://csszengarden.com/144/h3_05.gif);
+}
+
+/**/
+footer {
+    text-align: center;
+    padding: 12px 20px;
+    background: url(https://csszengarden.com/144/line.gif) no-repeat 50% 0;
+}
